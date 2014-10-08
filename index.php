@@ -1,13 +1,14 @@
+<?php
+  redirect_to(header);
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
-	<?php include(components/html-head.php); ?>
+	<?php require("components/site-functions.php"); ?>
+	<?php include("components/html-head.php"); ?>
 </head>
 <body>
-	 <h2></h2>
-		 <?php 
-		 ?>
-
+	<?php echo tere('Merili'); ?>
 </body>
 </html>
 	
